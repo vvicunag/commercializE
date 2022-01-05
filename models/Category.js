@@ -26,4 +26,20 @@ Category.init(
   }
 );
 
+
+
+// async function runCategory() {
+//  try {
+//     await sequelize.sync({force: true});
+//     console.log("Connected and initialised DB");
+//     const book = await Book.create({
+//       name: "Book",
+//       author: "John"
+//     });
+//     console.log("created book", book.dataValues); 
+//   } catch (err) {
+//     console.log("Something went wrong");
+//   }
+// }
+
 module.exports = Category;
